@@ -9,7 +9,6 @@ import HomePage from "./views/HomePage.vue";
 export default {
   components: {
     BaseHeader,
-    HomePage,
   },
 };
 </script>
