@@ -23,11 +23,11 @@
             <h2 class="text-white font-poppins font-normal mb-4">
               ABOUT DEVLEOON
             </h2>
-            <ul class="text-shiri space-y-4">
-              <li>About US</li>
-              <li>Career</li>
-              <li>Terms oF Service</li>
-              <li>Privacy Policy</li>
+            <ul class="text-shiri space-y-4 flex flex-col gap-2">
+              <a href="#"><li class="hover:scale-110">About US</li></a>
+              <a href="#"><li class="hover:scale-110">Career</li></a>
+              <a href="#"><li class="hover:scale-110">Terms oF Service</li></a>
+              <a href="#"><li class="hover:scale-110">oF Service</li></a>
             </ul>
           </div>
         </div>
@@ -38,24 +38,29 @@
             class="col-3 text-shiri mb-4 lg:flex lg:justify-center lg:flex-col lg:items-center lg:w-1/2"
           >
             <h2 class="text-white font-poppins font-medium mb-4">TOP BRANDS</h2>
-            <ul class="flex flex-col  gap-6">
-              <li class="hover:p-1">BMW</li>
-              <li class="hover:p-2">Lamborghini</li>
-              <li class="hover:p-1">Camaro</li>
-              <li class="hover:p-1">Audi</li>
-              <li class="hover:p-1">Infiniti</li>
-              <li class="hover:p-1">Nissan</li>
+            <ul class="flex flex-col gap-6">
+              <a href="#"><li class="hover:scale-110">BMW</li></a>
+
+              <a href="#"><li class="hover:scale-110">Lamborghini</li></a>
+
+              <a href="#"><li class="hover:scale-110">Camaro</li></a>
+
+              <a href="#"> <li class="hover:scale-110">Audi</li></a>
+
+              <a href="#"><li class="hover:scale-110">Infiniti</li></a>
+
+              <a href="#"> <li class="hover:scale-110">Nissan</li></a>
             </ul>
           </div>
           <div class="col-4 text-shiri text-start">
             <h2 class="text-white font-poppins font-medium mb-4">TOP BRANDS</h2>
             <ul class="flex flex-col gap-6">
-              <li class="hover:px-2">Benz</li>
-              <li class="hover:px-2">Ferrari</li>
-              <li class="hover:px-2">Porscha</li>
-              <li class="hover:px-2">Land Rover</li>
-              <li class="hover:px-2">Aston Martin</li>
-              <li class="hover:px-2">Opel</li>
+              <a href="#"><li class="hover:scale-110">Benz</li></a>
+              <a href="#"><li class="hover:scale-110">Ferrari</li></a>
+              <a href="#"><li class="hover:scale-110">Porscha</li></a>
+              <a href="#"><li class="hover:scale-110">Land Rover</li></a>
+              <a href="#"><li class="hover:scale-110">Aston Martin</li></a>
+              <a href="#"> <li class="hover:scale-110">Opel</li></a>
             </ul>
           </div>
         </div>
@@ -63,13 +68,15 @@
           <h2 class="text-white font-normal font-poppins">NEWS LETTER</h2>
           <p>Subscribe to get latest news update and informations</p>
           <div
-            class="border border-naft rounded-lg shadow-2xl ring-naft shadow-white lg:w-3/5"
+            class="border flex justify-around items-center px-2 py-1 border-naft rounded-full shadow-2xl ring-naft shadow-black lg:w-4/5"
           >
             <input
-              class="bg-naft rounded-lg px-4 ring-0 ring-naft"
+              class="bg-naft w-2/3 rounded-lg border-0 ring-0 ring-naft"
               type="email"
               placeholder="Add Email"
             />
+
+            <img class="w-6 h-6" src="/img/icons8-right-48.png" alt="" />
           </div>
         </div>
       </div>

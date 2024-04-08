@@ -1,12 +1,15 @@
 <template>
-  <div class="global flex justify-center items-center lg:w-3/12  ">
+  <div
+    class="global flex justify-center items-center phone:w-full sm:max-w-11/12 md:w-3/6 lg:w-3/12"
+  >
     <div
-      class="border flex flex-col items-center justify-center border-shiri   md:w-5/6 bg-gray-200 shadow-2xl rounded-md"
+      class="border flex flex-col items-center justify-center border-shiri mx-2 my-2 bg-gray-50 rounded-md"
     >
-    <div class=" flex justify-center items-center py-8 ">
-
-      <img class="w-3/4 h-3/4" :src="Car"  alt="" />
-    </div>
+      <div
+        class="hover:scale-125 hover:transition-all ease-in-out flex justify-center items-center w-40 h-40"
+      >
+        <img class="" :src="Car" alt="car" />
+      </div>
       <div class="common-2 border-t border-shiri px-2 py-4 bg-white">
         <p class="text-nowrap text-sm text-gray-500 font-medium">
           {{ model }}
@@ -15,11 +18,13 @@
           Automatic
         </p>
         <div>
-          <h2
-            class="font-poppins text-nowrap text-center border-t-2 border-b-2 border-dashed border-banafh mt-4 py-2 shadow-2xl"
-          >
-            <a href="#">{{ name }}</a>
-          </h2>
+          <div class="bg-gray-50">
+            <h2
+              class="font-poppins text-nowrap text-sm text-center font-semibold border-t-2 border-b-2 border-dashed border-banafh mt-4 py-1 shadow-2xl"
+            >
+              <a class="text-wrap" href="#">{{ name }}</a>
+            </h2>
+          </div>
           <h3 class="font-poppins mt-2">${{ price }}</h3>
           <p class="text-gray-500 text-wrap text-start">
             {{ description }}

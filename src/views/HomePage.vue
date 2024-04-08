@@ -122,19 +122,21 @@
       </form>
     </section>
   </div>
-  <section class="lg:flex lg:container lg:mx-auto">
+  <section
+    class="flex flex-wrap md:flex-row lg:flex-nowrap lg:container lg:mx-auto"
+  >
     <serviceContent
       headerH1="largest dealership of car"
-      imgess="/img/icons8-car-64.png"
+      imgess="/img/automobile-icon.svg"
     ></serviceContent>
     <serviceContent
       headerH1="unlimited repair warrenty"
-      imgess="/img/icons8-car-repair-64.png"
+      imgess="/img/car-repair-mechanic-icon.svg"
     >
     </serviceContent>
     <serviceContent
       headerH1="insurence support"
-      imgess="/img/icons8-car-insurance-80 (1).png"
+      imgess="/img/parking-area-icon.svg"
     >
     </serviceContent>
   </section>
@@ -142,7 +144,7 @@
   <section>
     <div class="bg-gray-100">
       <div class="flex flex-col justify-center items-center mb-14">
-        <p class="font-poppins font-medium text-sm pb-2">
+        <p class="font-poppins font-medium text-sm pb-2 mt-10">
           Checkout the Featured Cars
         </p>
         <h2
@@ -151,7 +153,7 @@
           Newest Cars
         </h2>
       </div>
-      <div class="container mx-auto flex overflow-hidden cursor-pointer">
+      <div class="md:container mx-auto flex overflow-hidden cursor-pointer">
         <NewestCars
           :style="`transform: translateX(-${currentIndex * 100}% )`"
           v-for="item in newestcars"
@@ -170,7 +172,7 @@
       </div>
       <div class="dots flex justify-center items-center">
         <button
-          class="dot bg-white border-2 border-black px-1 py-1 rounded-full my-2 mx-1"
+          class="dot bg-white border-2 border-black px-1 py-1 rounded-full my-2 mx-1 mb-10"
           v-for="item in newestcars.length"
           :key="item"
           @click="showslide"
@@ -191,7 +193,9 @@
       </h2>
     </div>
 
-    <div class="container w-full mx-auto  flex flex-row flex-g flex-wrap ">
+    <div
+      class="sm:container mx-auto flex phone:flex-col md:justify-center md:items-center md:flex-row flex-wrap"
+    >
       <FeaturedCars
         v-for="productsCar in productsCars"
         :key="productsCar.name"
