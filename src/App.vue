@@ -1,7 +1,7 @@
 <template>
   <BaseHeader />
   <HomePage />
-  <topScrool/>
+  <topScrool />
 </template>
 <script lang="ts">
 import BaseHeader from "./components/BaseHeader.vue";

@@ -17,7 +17,7 @@
               Ut enim ad minim veniam.
             </p>
             <p class="text-shiri">info@themesine.com</p>
-            <p class="mb-2 text-shiri">+1 (885) 2563154554</p>
+            <p class="mb-2 text-shiri text-nowrap">+1 (885) 2563154554</p>
           </div>
           <div class="col-2 flex flex-col lg:w-2/3 sm:w-2/5 justify-center">
             <h2 class="text-white font-poppins font-normal mb-4">
@@ -84,11 +84,27 @@
     </div>
     <div class="lg:container mx-auto">
       <div class="border-t-2 mt-10 border-gray-500">
-        <div class="flex justify-center items-center lg:justify-start py-4">
+        <div
+          class="flex phone:flex-col md:flex-row justify-center items-center md:justify-between phone:justify-start phone:items-start gap-3 py-4"
+        >
           <p class="text-shiri pl-2 md:pl-0">
             © copyright.designed and developed by
             <a href="index.html">themesine</a>
           </p>
+          <div class="flex gap-2">
+            <a href="#"
+              ><img
+                class="w-6 h-6"
+                src="/img/icons8-facebook-50 (1).png"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                class="w-6 h-6"
+                src="/img/icons8-instagram-50 (1).png"
+                alt=""
+            /></a>
+          </div>
         </div>
       </div>
     </div>

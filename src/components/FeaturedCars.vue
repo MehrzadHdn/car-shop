@@ -6,7 +6,7 @@
       class="border flex flex-col items-center justify-center border-shiri mx-2 my-2 bg-gray-50 rounded-md"
     >
       <div
-        class="hover:scale-125 hover:transition-all ease-in-out flex justify-center items-center w-40 h-40"
+        class="hover:scale-125 hover:transition-all ease-in-out flex justify-center items-center w-52 h-40"
       >
         <img class="" :src="Car" alt="car" />
       </div>

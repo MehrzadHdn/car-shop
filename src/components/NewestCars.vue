@@ -1,6 +1,6 @@
 <template>
   <div
-    class="images flex justify-center phone:flex-col lg:flex-row gap-10  grow-0 shrink-0 items-center w-full overflow-hidden my-14"
+    class=" images flex justify-center phone:flex-col lg:flex-row gap-10  grow-0 shrink-0 items-center w-full overflow-hidden my-14"
   >
     <div class="md:w-1/2 phone:w-4/5"><img :src="NewestCarsCarImg" alt="" /></div>
     <div class="phone:w-2/3 md:w-1/2 flex flex-col items-start justify-center">
